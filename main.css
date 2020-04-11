@@ -22,16 +22,23 @@ body {
   position: relative;
 }
 
-.section-title {
-  color: #2ddf5c;
-  text-align: center;
-}
-
 #product-overview h1 {
   color: #fff;
   font-family: 'Anton', sans-serif;
   position: absolute;
+  left: 3%;
   bottom: 15%;
+}
+
+@media (min-width: 40rem) {
+  #product-overview h1 {
+    font-size: 3rem;
+  }
+}
+
+.section-title {
+  color: #2ddf5c;
+  text-align: center;
 }
 
 .plan__list {
