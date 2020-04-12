@@ -89,6 +89,10 @@ body {
   padding: 0;
 }
 
+.plan__feature {
+  margin: 0.5rem 0;
+}
+
 @media (min-width: 40rem) {
   .plan__list {
     width: 100%;
@@ -106,10 +110,6 @@ body {
   .plan--highlighted {
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
   }
-}
-
-.plan__feature {
-  margin: 0.5rem 0;
 }
 
 #key-features {
@@ -130,12 +130,6 @@ body {
   text-align: center;
 }
 
-.key-feature {
-  display: inline-block;
-  width: 30%;
-  vertical-align: top;
-}
-
 .key-feature__image {
   background-color: #ffcede;
   width: 128px;
@@ -151,6 +145,15 @@ body {
   font-weight: bold;
   color: #fff;
   font-size: 1.2rem;
+}
+
+@media (min-width: 40rem) {
+  .key-feature {
+    display: inline-block;
+    width: 30%;
+    max-width: 25rem;
+    vertical-align: top;
+  }
 }
 
 /* h1 {
